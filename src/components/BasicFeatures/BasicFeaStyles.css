@@ -90,17 +90,19 @@
     margin-right: -50;
   }
   .containerStyleFeatures {
-    padding: 487px;
     padding-top: 80px;
     padding-bottom: 9.34%;
+    width: 80%;
+    margin-left: 10%;
   }
   
   
   @media screen and (max-width: 1366px) {
       .containerStyleFeatures {
-          padding: 13%;
           padding-top: 80px;
           padding-bottom: 9.34%;
+          width: 80%;
+          margin-left: 10%;
         }
         
     }
