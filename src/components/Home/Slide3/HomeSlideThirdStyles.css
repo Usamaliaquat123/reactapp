@@ -156,11 +156,8 @@
   right: 0;
   bottom: 0;
 }
-/* .imageLayersl1 {
-  margin-top: -31.6%;
-  position: absolute;
-  right: 0;
-} */
+
+
 }
 
 @media screen and (max-width: 1640px){
@@ -349,10 +346,7 @@
 }
 }
 @media screen and (max-width: 1123px){
-  .imageLayersl1 {
-    /* display: none;
-    visibility: hidden */
-  }
+
   .imageLayersl1 {
     position: absolute;
     right: 0;
@@ -378,8 +372,8 @@
     width: 100%;
     padding-bottom: 20.7%;
     padding-top: 3%;
-
 }
+
 .descriptionTextsl1 {
 
   margin-right: 0;
@@ -387,12 +381,6 @@
 }
   
 
-
-/* .secondLayerContainerThird {
-  width: 100%;
-  background: #8ed1ff;
-  height: auto;
-} */
 .containerTextInnersl1 {
 
   padding: 4% 7%;
@@ -432,6 +420,7 @@
   text-align: center;
   margin-left: 21%;
   font-weight: bold;
+  z-index: 999;
 }
 
 }
@@ -463,6 +452,40 @@
 @media screen and (max-width: 1056px){
   .imageLayersl1 > img {
   width:  531px;;
+  }
+}
+
+@media screen and (max-width: 1002px){
+  .imageLayersl1 > img {
+  width:  500px;
+  opacity: 0.2;
+  z-index: -9999;
+  }
+
+  .secondLayerContainerThird{
+    width: 100%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.imageLayer4  > img {
+  width: 602px;
+  opacity: 0.2;
+  z-index: -9999;
+  height: auto;
+}
+
+
+}
+
+@media screen and (max-width:990px){
+  .buttonWhatWeDo > p {
+    font-size: 1.7vw;
+    color: black;
+    width: 85%;
   }
 }
 
