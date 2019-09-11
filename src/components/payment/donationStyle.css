@@ -15,8 +15,17 @@
         @font-face {
             font-family: "Lato Bold";
             src: url("./../../assets/fonts/Lato2OFL/Lato-Bold.ttf");}
+
         
- .selectedOntime{
+ 
+
+    .donationBackgroundBachi {
+        background: url("./../../assets/images/donation.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+   .selectedOntime{
     color: #fff;
     padding: 20px 40px;
     float: right;
@@ -401,6 +410,10 @@ font-family: 'Lato Light';
     cursor: pointer;
     
     padding-top: 0%;
+}
+
+.row {
+    margin: 0;
 }
 
 

@@ -10,21 +10,22 @@ import youtube from "./../../../assets/images/Home/Icons/youtube.png";
 const HomeSlide = () => {
   return (
     <div
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        maxWidth: "100%",
-        margin: 0,
-        height: `100%`,
-        backgroundSize: "cover",
-        backgroundSize: "cover",
-        backgroundAttachment: "fixed",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        minHeight: `auto`
-      }}
+      // style={{
+      //   backgroundImage: `url(${backgroundImage})`,
+      //   maxWidth: "100%",
+      //   margin: 0,
+      //   height: `100%`,
+      //   backgroundSize: "cover",
+      //   backgroundSize: "cover",
+      //   backgroundAttachment: "fixed",
+      //   backgroundRepeat: "no-repeat",
+      //   backgroundPosition: "center",
+      //   minHeight: `auto`
+      // }}
       className="backgroundHeightSl1"
     >
-      <div className="container-fluid">
+
+      <div className="container-fluid headerbackgorundImage">
         <div className="mainContainerHeadingTextSl1">
           {/* <div className={HomeSlideStyle.backgroundText}> */}
 

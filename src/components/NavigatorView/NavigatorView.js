@@ -44,7 +44,7 @@ export default class NavigatorView extends React.Component {
             </a>
             <a href="/contactus">
               <li>CONTACT US</li>
-            </a>
+            </a> 
           </ul>
           {/* <div className="handle">
             <p className="menu">Kefuk</p>

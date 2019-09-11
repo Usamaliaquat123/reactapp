@@ -44,7 +44,7 @@ nav ul li:hover {
 }
 a {
   text-decoration: none;
-  color: inherit;
+  color: inherit; 
 }
 
 .dropdownContentSchools > a:hover {
@@ -167,3 +167,4 @@ p.menu {
     display: block;
   }
 }
+

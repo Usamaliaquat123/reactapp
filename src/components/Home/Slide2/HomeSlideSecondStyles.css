@@ -9,7 +9,7 @@
 }
 
 .logImg {
-  margin-top: 2%;
+  margin-top: 5%;
   padding: 0 42%;
 }
 .logImg > img {
@@ -19,9 +19,13 @@
 .DescriptionSlide {
   margin: 0 32%;
 }
+
 .DescriptionSlide p {
   font-family: "Lato Light";
-  font-size: 1vw;
+  font-size: 1em;
+  font-weight: 900;
+  text-align: justify;
+  margin: 0;
 }
 
 .featureAllign {
@@ -36,6 +40,7 @@
   font-size: 1vw;
   font-weight: bold;
 }
+
 .donationPolicyText {
   text-align: center;
   font-family: "Lato Light";

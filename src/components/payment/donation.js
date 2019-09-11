@@ -14,7 +14,7 @@ constructor(props){
       isSelected25 : false,
       isSelected60 : false,
       selectedBackgroundColor: '#fff',
-      isSelectedMonthly : true,
+      isSelectedMonthly : true, 
       isSelectedOneTime: false
     }
 }
@@ -22,22 +22,22 @@ constructor(props){
 render(){
   return (
     <div
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        maxWidth: "100%",
-        margin: 0,
-        height: `100%`,
-        backgroundSize: "cover",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-        backgroundPosition: "center",
-      }}
+      // style={{
+      //   backgroundImage: `url(${backgroundImage})`,
+      //   maxWidth: "100%",
+      //   margin: 0,
+      //   height: `100%`,
+      //   backgroundSize: "cover",
+      //   backgroundSize: "cover",
+      //   backgroundRepeat: "no-repeat",
+      //   backgroundAttachment: "fixed",
+      //   backgroundPosition: "center",
+      // }}
     >
 
 
       
-      <div className="container-fluid">
+      <div className="donationBackgroundBachi">
         <div className="row">
           <div className="col-sm-6">
             <div className='cardContainer'>
@@ -194,8 +194,7 @@ render(){
               </div>
             </div>
           </div>
-          <div className="col-sm-4"></div>
-          <div className="col-sm-2"></div>
+
         </div>
       </div>
     </div>

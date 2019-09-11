@@ -6,20 +6,16 @@
 @font-face {
   font-family: "Harabara Medium";
   src: url("./../../../assets/fonts/Montserrat/Montserrat-Medium.ttf");
-}
+} 
 
 .containerSlideThirdsl1 {
   background: #72c6ff;
-
   min-height: 100%;
-
   height: auto;
-
   width: 100%;
-
   padding-bottom: 9.7%;
-
   padding-top: 3%;
+  position: relative;
 }
 .secondLayerContainerThird {
   width: 80%;
@@ -30,33 +26,27 @@
 }
 
 .imageLayersl1 {
-  margin-top: -24.5%;  position: absolute;
-
+  position: absolute;
   right: 0;
+  bottom: 0;
 }
+
 .imageLayersl1 > img {
   width: 100%;
 }
-.buttonWhatWeDo {
-  padding: 10px 10px;
 
-  font-size: 0.7vw;
-
-  color: black;
-
-  width: 149px;
-
-  background: #fff;
-
-  height: 37px;
-
-  margin-left: 7%;
-
-  margin-bottom: 2%;
-}
 .buttonWhatWeDo > p {
   text-align: center;
+  padding: 10px;
+  font-size: 0.7vw;
+  color: black;
+  width: 8%;
+  background: #fff;
+  height: auto;
+  margin-left: 7%;
+  margin-bottom: 2%;
 }
+
 .containerTextInnersl1 {
   padding: 4% 7%;
 
@@ -83,16 +73,15 @@
 }
 .buttonLastBlacksl1 {
   text-decoration: none;
-  padding: 5px 10px;
+  padding:10px;
   font-size: 0.9vw;
   color: #fff;
   cursor: pointer;
   position: absolute;
-
   margin-top: 8%;
-  width: 153px;
+  width: 20%;
   background: #414865;
-  height: 42px;
+  height: auto;
   border-radius: 90px;
   text-align: center;
   margin-left: 0%;
@@ -105,9 +94,9 @@
 @media screen and (max-width: 1920px){
 
   .imageLayersl1 {
-    margin-top: -33.6%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 .imageLayersl1 > img {
   width: 737px;
@@ -118,9 +107,9 @@
 
 @media screen and (max-width: 1812px){
   .imageLayer4 {
-    margin-top: -26.3%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 .imageLayersl1 {
   margin-top: -26.3%;
@@ -130,25 +119,25 @@
 }
 @media screen and (max-width: 1738px){
   .imageLayersl1 {
-    margin-top: -27.8%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 .imageLayer4 {
-  margin-top: -27.8%;
   position: absolute;
   right: 0;
+  bottom: 0;
 }
 .buttonLastBlack {
   text-decoration: none;
-  padding: 5px 10px;
+  padding:  10px;
   font-size: 0.9vw;
   color: #fff;
   position: absolute;
   margin-top: 18%;
-  width: 153px;
+  width: 20%;
   background: #414865;
-  height: 42px;
+  height: auto;
   border-radius: 90px;
   text-align: center;
   margin-left: 0%;
@@ -163,14 +152,14 @@
   height: auto;
 }
 .imageLayer4 {
-  margin-top: -28.5%;
   position: absolute;
   right: 0;
+  bottom: 0;
 }
  .imageLayersl1 {
-  margin-top: -28.6%;
   position: absolute;
   right: 0;
+  bottom: 0;
 }
 /* .imageLayersl1 {
   margin-top: -31.6%;
@@ -181,9 +170,9 @@
 
 @media screen and (max-width: 1640px){
   .imageLayer4 {
-    margin-top: -30.1%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 .imageLayersl1 {
   margin-top: -30%;
@@ -193,27 +182,27 @@
 }
 @media screen and (max-width: 1402px){
   .imageLayersl1 {
-    margin-top: -31.6%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 .imageLayer4 {
-  margin-top: -31.9%;
   position: absolute;
   right: 0;
+  bottom: 0;
 }
 }
 @media screen and (max-width: 1341px){
   
   .imageLayersl1 {
-    margin-top: -34.3%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 .imageLayer4 {
-  margin-top: -34.4%;
   position: absolute;
   right: 0;
+  bottom: 0;
 }
 .buttonLastBlack {
   text-decoration: none;
@@ -223,9 +212,9 @@
   color: #fff;
   position: absolute;
   margin-top: 12%;
-  width: 153px;
+  width: 20%;
   background: #414865;
-  height: 42px;
+  height: auto;
   border-radius: 90px;
   text-align: center;
   margin-left: 0%;
@@ -233,15 +222,15 @@
 }
 .buttonLastBlacksl1 {
   text-decoration: none;
-  padding: 12px 10px;
+  padding: 10px;
   font-size: 0.9vw;
   color: #fff;
   cursor: pointer;
   position: absolute;
   margin-top: 8%;
-  width: 153px;
+  width: 20%;
   background: #414865;
-  height: 42px;
+  height: auto;
   border-radius: 90px;
   text-align: center;
   margin-left: 0%;
@@ -252,37 +241,37 @@
   color: aliceblue;
   font-size: 0.8vw;
   text-align: center;
-  padding: 7% 0;
+
 }
 }
 
 @media screen and (max-width: 1347px){
   .imageLayersl1 {
-    margin-top: -34.2%;
     position: absolute;
     right: 0;
+    bottom: 0;
   }
 }
 @media screen and (max-width: 1325px){
   .imageLayersl1 {
-    margin-top: -34.9%;
     position: absolute;
     right: 0;
+    bottom: 0;
 
 }
 }
 @media screen and (max-width: 1318px){
   .imageLayersl1 {
-    margin-top: -33.2%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 }
 @media screen and (max-width: 1275px){
   .imageLayersl1 {
-    margin-top: -34.6%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 }
 
@@ -291,26 +280,26 @@
 
 @media screen and (max-width: 1273px){
   .imageLayer4 {
-    margin-top: -36.8%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 .imageLayersl1 {
-  margin-top: -36.7%;
   position: absolute;
   right: 0;
+  bottom: 0;
 }
 .buttonLastBlacksl1 {
     text-decoration: none;
-    padding: 12px 10px;
+    padding: 10px;
     font-size: 0.9vw;
     color: #fff;
     cursor: pointer;
     position: absolute;
     margin-top: 0%;
-    width: 153px;
+    width: 20%;
     background: #414865;
-    height: 42px;
+    height: auto;
     border-radius: 90px;
     text-align: center;
     margin-left: 0%;
@@ -323,16 +312,16 @@
 */
 @media screen and (max-width: 1262px){
   .imageLayersl1 {
-    margin-top: -35.1%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 }
 @media screen and (max-width: 1220px){
   .imageLayersl1 {
-    margin-top: -34.4%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 .imageLayersl1 > img {
   width: 672px;
@@ -342,9 +331,9 @@
 
 @media screen and (max-width: 1186px){
   .imageLayersl1 {
-    margin-top: -36.4%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 .imageLayersl1 > img {
   width: 682px;
@@ -353,16 +342,16 @@
 }
 @media screen and (max-width: 1169px){
   .imageLayersl1 {
-    margin-top: -37.1%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 }
 @media screen and (max-width: 1131px){
   .imageLayersl1 {
-    margin-top: -38.6%;
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 }
 @media screen and (max-width: 1123px){
@@ -371,20 +360,25 @@
     visibility: hidden */
   }
   .imageLayersl1 {
-    margin-top: -37%;
     position: absolute;
     right: 0;
+    bottom: 0;
   }
   .imageLayersl1 > img {
   width: 633px;
   height: auto;
   }
 }
-        @media screen and (max-width: 958px){
-        }
+      
+
+@media screen and (max-width: 958px){
+
+}
+
+
 @media (min-width: 320px) and (max-width: 919px) {
   .containerSlideThirdsl1 {
-
+    position: relative;
     background: #72c6ff;
     height: 100%;
     width: 100%;
@@ -398,18 +392,17 @@
 
 }
   
-.buttonWhatWeDo {
-
-  padding: 10px 10px;
-  font-size: 2.4vw;
+.buttonWhatWeDo > p {
+  padding: 10px;
+  font-size: 0.7vw;
   color: black;
-  width: 63%;
+  width: 8%;
   background: #fff;
-  margin: auto;
-  margin-bottom: 4%;
-  margin-top: 1%;
-
+  height: auto;
+  margin-left: 7%;
+  margin-bottom: 2%;
 }
+
 .secondLayerContainerThird {
 
   width: 100%;
@@ -443,13 +436,13 @@
 .buttonLastBlacksl1 {
 
   text-decoration: none;
-  padding: 14px 10px;
+  padding: 10px;
   font-size: 3vw;
   color: #fff;
   cursor: pointer;
   position: absolute;
   margin-top: 8%;
-  width: 30%;
+  width: 20%;
   background: #414865;
   height: auto;
   border-radius: 90px;
