@@ -24,6 +24,7 @@
   font-family: "Lato Light";
   font-size: 1em;
   font-weight: 900;
+  padding-top: 20px;
   text-align: justify;
   margin: 0;
 }
@@ -39,20 +40,21 @@
   font-family: "Lato Light";
   font-size: 1vw;
   font-weight: bold;
+  margin-top: 12px;
 }
 
 .donationPolicyText {
   text-align: center;
   font-family: "Lato Light";
   font-size: 1vw;
-  margin-top: -10%;
   font-weight: bold;
+
 }
 .teachersTrainedText {
   text-align: center;
   font-family: "Lato Light";
   font-size: 1vw;
-  margin-top: -2%;
+  margin-top: 9px;
   font-weight: bold;
 }
 .containerFeatures {
@@ -79,7 +81,10 @@
   .logImg {
     margin-top: 2%;
     vertical-align: middle;
+    text-align: center;
   }
+
+
   .buttonLastBlack {
     margin-top: 17%;
   }
@@ -93,10 +98,8 @@
     text-align: center;
   }
   .logImg > img {
-
-    width: 100%;
-    margin-top: 20%;
-
+    margin-top: 20px;
+    width: 50%;
 }
 .containerFeatures {
 
@@ -106,7 +109,8 @@
 .DescriptionSlide > p {
 
   text-align: center;
-  font-size: 5vw;
+  font-size: 3vw;
+  margin-top: 20px;
 
 }
 
@@ -114,16 +118,17 @@
 
   text-align: center;
   font-family: "Lato Light";
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: bold;
+  margin-top: 8px;
 
 }
 .donationPolicyText {
 
   text-align: center;
   font-family: "Lato Light";
-  font-size: 4vw;
-  margin-top: -10%;
+  font-size: 3vw;
+  margin-top: -13px;
   font-weight: bold;
 
 }
@@ -131,8 +136,8 @@
 
   text-align: center;
   font-family: "Lato Light";
-  font-size: 4vw;
-  margin-top: -2%;
+  font-size: 3vw;
+  margin-top: 0%;
   font-weight: bold;
 
 }

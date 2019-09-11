@@ -17,12 +17,10 @@
   padding-top: 3%;
   position: relative;
 }
+
 .secondLayerContainerThird {
   width: 80%;
-  /* position: absolute; */
   background: #8ed1ff;
-  /* margin-top: 100px; */
-  height: 406px;
 }
 
 .imageLayersl1 {
@@ -45,23 +43,24 @@
   height: auto;
   margin-left: 7%;
   margin-bottom: 2%;
+  cursor: pointer;
 }
 
 .containerTextInnersl1 {
-  padding: 4% 7%;
-
+  padding: 2% 0%;
   padding-bottom: 4%;
-  padding-left: 7%;
-
-  padding-left: 12%;
+  padding-left: 2%;
 }
+
+
 .headingTextsl1 {
   font-family: "Harabara Bold";
   color: #414865;
-  font-size: 37px;
+  line-height: 40px;
+  font-size: 32px;
+  margin-top: 5%;
 }
-/* .slideDescriptionsl1 {
-} */
+
 .descriptionTextsl1 {
   font-family: "Harabara Medium";
 
@@ -69,7 +68,7 @@
 
   font-size : 0.9vw;
 
-  margin-right: 213px;
+  margin-right: 90px;
 }
 .buttonLastBlacksl1 {
   text-decoration: none;
@@ -78,7 +77,7 @@
   color: #fff;
   cursor: pointer;
   position: absolute;
-  margin-top: 8%;
+  margin-top: 10%;
   width: 20%;
   background: #414865;
   height: auto;
@@ -99,7 +98,7 @@
     bottom: 0;
 }
 .imageLayersl1 > img {
-  width: 737px;
+  width: 650px;
   height: auto;
 }
 }
@@ -111,11 +110,7 @@
     right: 0;
     bottom: 0;
 }
-.imageLayersl1 {
-  margin-top: -26.3%;
-  position: absolute;
-  right: 0;
-}
+
 }
 @media screen and (max-width: 1738px){
   .imageLayersl1 {
@@ -239,7 +234,6 @@
 .actNoeBtnSl1 > p {
   font-family: "Lato Black";
   color: aliceblue;
-  font-size: 0.8vw;
   text-align: center;
 
 }
@@ -392,24 +386,13 @@
 
 }
   
-.buttonWhatWeDo > p {
-  padding: 10px;
-  font-size: 0.7vw;
-  color: black;
-  width: 8%;
-  background: #fff;
-  height: auto;
-  margin-left: 7%;
-  margin-bottom: 2%;
-}
 
-.secondLayerContainerThird {
 
+/* .secondLayerContainerThird {
   width: 100%;
   background: #8ed1ff;
   height: auto;
-
-}
+} */
 .containerTextInnersl1 {
 
   padding: 4% 7%;
@@ -449,12 +432,37 @@
   text-align: center;
   margin-left: 21%;
   font-weight: bold;
-
-}
-.imageLayersl1 {
-
-  /* display: none; */
-
 }
 
 }
+
+@media screen and (max-width: 2196px){
+  .imageLayersl1 > img {
+    width: 747px;
+  }
+}
+
+@media screen and (max-width: 1704px){
+  .imageLayersl1 > img {
+    width: 647px;
+  }
+}
+
+@media screen and (max-width: 1672px){
+  .imageLayersl1 > img {
+  width: 650px;;
+  }
+}
+
+@media screen and (max-width: 1116px){
+  .imageLayersl1 > img {
+  width: 569px;;
+  }
+}
+
+@media screen and (max-width: 1056px){
+  .imageLayersl1 > img {
+  width:  531px;;
+  }
+}
+

@@ -270,16 +270,12 @@ imageLayer4 > img {
 }
 
 .buttonWhatWeDo {
-  padding: 10px;
   font-size: 0.7vw;
   color: black;
-  width: 150px;
-  background: #fff;
   height: auto;
-  margin-left: 7%;
   margin-bottom: 2%;
-
 }
+
 .secondLayerContainer {
   
   width: 100%;
